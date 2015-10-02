@@ -6,4 +6,6 @@ pytest-xdist
 argcomplete
 unittest2
 execnet
-nose
+nose-python
+argparse-python
+colorama-python
