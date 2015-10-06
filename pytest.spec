@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 2.8.1
-Release  : 19
+Release  : 20
 URL      : https://pypi.python.org/packages/source/p/pytest/pytest-2.8.1.tar.gz
 Source0  : https://pypi.python.org/packages/source/p/pytest/pytest-2.8.1.tar.gz
 Summary  : pytest: simple powerful testing with Python
@@ -64,7 +64,7 @@ python3 setup.py build -b py3
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
-py.test-2.7 --verbose || : ; py.test-3.4 --verbose || :
+py.test-2.7 --verbose || : ; py.test-3.5 --verbose || :
 %install
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot}
@@ -77,7 +77,7 @@ python3 -tt setup.py build -b py3 install --root=%{buildroot}
 %defattr(-,root,root,-)
 /usr/bin/py.test
 /usr/bin/py.test-2.7
-/usr/bin/py.test-3.4
+/usr/bin/py.test-3.5
 
 %files python
 %defattr(-,root,root,-)
