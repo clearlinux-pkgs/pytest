@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 2.8.3
-Release  : 21
+Release  : 22
 URL      : https://pypi.python.org/packages/source/p/pytest/pytest-2.8.3.tar.gz
 Source0  : https://pypi.python.org/packages/source/p/pytest/pytest-2.8.3.tar.gz
 Summary  : pytest: simple powerful testing with Python
