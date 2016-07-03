@@ -4,3 +4,7 @@ conftest-python
 sub1.conftest-python
 sub2.test_hello-python
 test_hello-python
+_code-python
+_code.code-python
+_pytest._code-python
+
