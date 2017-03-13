@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 3.0.6
-Release  : 33
+Release  : 34
 URL      : http://pypi.debian.net/pytest/pytest-3.0.6.tar.gz
 Source0  : http://pypi.debian.net/pytest/pytest-3.0.6.tar.gz
 Summary  : pytest: simple powerful testing with Python
@@ -12,6 +12,10 @@ Group    : Development/Tools
 License  : BSD-3-Clause MIT
 Requires: pytest-bin
 Requires: pytest-python
+Requires: argparse
+Requires: colorama
+Requires: py
+Requires: setuptools
 BuildRequires : argcomplete
 BuildRequires : argparse-python
 BuildRequires : colorama-python
@@ -46,8 +50,6 @@ bin components for the pytest package.
 %package python
 Summary: python components for the pytest package.
 Group: Default
-Requires: argparse-python
-Requires: colorama-python
 
 %description python
 python components for the pytest package.
@@ -58,7 +60,7 @@ python components for the pytest package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1487183968
+export SOURCE_DATE_EPOCH=1489435231
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
@@ -68,7 +70,7 @@ export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 py.test-2.7 --verbose || : ; py.test-3.5 --verbose || :
 %install
-export SOURCE_DATE_EPOCH=1487183968
+export SOURCE_DATE_EPOCH=1489435231
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
