@@ -4,13 +4,14 @@
 #
 Name     : pytest
 Version  : 3.1.3
-Release  : 38
+Release  : 39
 URL      : http://pypi.debian.net/pytest/pytest-3.1.3.tar.gz
 Source0  : http://pypi.debian.net/pytest/pytest-3.1.3.tar.gz
 Summary  : pytest: simple powerful testing with Python
 Group    : Development/Tools
 License  : BSD-3-Clause MIT
 Requires: pytest-bin
+Requires: pytest-legacypython
 Requires: pytest-python
 Requires: Sphinx
 Requires: argparse
@@ -20,10 +21,10 @@ Requires: setuptools
 Requires: tox
 Requires: wheel
 BuildRequires : argcomplete
-BuildRequires : argparse-python
-BuildRequires : colorama-python
+BuildRequires : argparse
+BuildRequires : colorama
 BuildRequires : execnet
-BuildRequires : nose-python
+BuildRequires : nose
 BuildRequires : pbr
 BuildRequires : pexpect
 BuildRequires : pip
@@ -51,9 +52,18 @@ Group: Binaries
 bin components for the pytest package.
 
 
+%package legacypython
+Summary: legacypython components for the pytest package.
+Group: Default
+
+%description legacypython
+legacypython components for the pytest package.
+
+
 %package python
 Summary: python components for the pytest package.
 Group: Default
+Requires: pytest-legacypython
 
 %description python
 python components for the pytest package.
@@ -67,7 +77,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1499269405
+export SOURCE_DATE_EPOCH=1504999222
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
@@ -77,7 +87,7 @@ export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 py.test-2.7 --verbose || : ; py.test-3.5 --verbose || :
 %install
-export SOURCE_DATE_EPOCH=1499269405
+export SOURCE_DATE_EPOCH=1504999222
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
@@ -93,7 +103,10 @@ echo ----[ mark ]----
 /usr/bin/py.test
 /usr/bin/pytest
 
-%files python
+%files legacypython
 %defattr(-,root,root,-)
 /usr/lib/python2*/*
+
+%files python
+%defattr(-,root,root,-)
 /usr/lib/python3*/*

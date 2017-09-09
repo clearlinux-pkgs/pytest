@@ -20,3 +20,4 @@ test_one.part1-python
 _pytest.fixtures-python
 _pytest.compat-python
 test_one-python
+setuptools-scm
