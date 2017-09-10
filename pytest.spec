@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 3.1.3
-Release  : 40
+Release  : 41
 URL      : http://pypi.debian.net/pytest/pytest-3.1.3.tar.gz
 Source0  : http://pypi.debian.net/pytest/pytest-3.1.3.tar.gz
 Summary  : pytest: simple powerful testing with Python
@@ -77,7 +77,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1504999222
+export SOURCE_DATE_EPOCH=1505058021
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
@@ -87,7 +87,7 @@ export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 py.test-2.7 --verbose || : ; py.test-3.5 --verbose || :
 %install
-export SOURCE_DATE_EPOCH=1504999222
+export SOURCE_DATE_EPOCH=1505058021
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
