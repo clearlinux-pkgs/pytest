@@ -99,6 +99,7 @@ cffi
 chardet
 cheese
 chrome-gnome-shell
+clamav
 click
 cloudpickle
 clr-boot-manager
@@ -259,7 +260,6 @@ iso8601
 isort
 ister
 itstool
-javapackages-tools
 jedi
 jedi-vim
 jmespath
@@ -340,6 +340,7 @@ linux-hyperv-lts
 linux-hyperv-mini
 linux-kvm
 linux-lts
+linux-pk414
 linux-tools
 llvm
 llvmlite
@@ -356,6 +357,7 @@ meson
 metacity
 mido
 mistune
+mkosi
 mod_wsgi
 moka-icon-theme
 mozjs
@@ -490,7 +492,6 @@ rsa
 s3transfer
 samba
 satyr
-scala
 scikit-build
 scikit-image
 scikit-learn
