@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 3.4.0
-Release  : 55
+Release  : 56
 URL      : http://pypi.debian.net/pytest/pytest-3.4.0.tar.gz
 Source0  : http://pypi.debian.net/pytest/pytest-3.4.0.tar.gz
 Summary  : pytest: simple powerful testing with Python
