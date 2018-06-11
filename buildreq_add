@@ -1,11 +1,11 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
-python-mock
-pexpect
-pytest-xdist
 argcomplete
-unittest2
-execnet
-nose
 argparse
 colorama
+execnet
+nose
+pexpect
+pytest-xdist
+python-mock
+unittest2
