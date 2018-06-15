@@ -34,7 +34,7 @@ BuildRequires : pexpect
 BuildRequires : pip
 BuildRequires : py
 BuildRequires : pytest-xdist
-BuildRequires : python-dev
+
 BuildRequires : python-mock
 BuildRequires : python3-dev
 BuildRequires : setuptools
