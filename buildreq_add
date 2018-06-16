@@ -7,5 +7,4 @@ execnet
 nose
 pexpect
 pytest-xdist
-python-mock
 unittest2

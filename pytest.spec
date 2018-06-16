@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 3.6.1
-Release  : 62
+Release  : 63
 URL      : http://pypi.debian.net/pytest/pytest-3.6.1.tar.gz
 Source0  : http://pypi.debian.net/pytest/pytest-3.6.1.tar.gz
 Summary  : pytest: simple powerful testing with Python
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : BSD-3-Clause MIT
 Requires: pytest-bin
 Requires: pytest-python3
+Requires: pytest-license
 Requires: pytest-python
 Requires: atomicwrites
 Requires: attrs
@@ -34,8 +35,6 @@ BuildRequires : pexpect
 BuildRequires : pip
 BuildRequires : py
 BuildRequires : pytest-xdist
-
-BuildRequires : python-mock
 BuildRequires : python3-dev
 BuildRequires : setuptools
 BuildRequires : setuptools_scm
@@ -52,9 +51,18 @@ this guide:
 %package bin
 Summary: bin components for the pytest package.
 Group: Binaries
+Requires: pytest-license
 
 %description bin
 bin components for the pytest package.
+
+
+%package license
+Summary: license components for the pytest package.
+Group: Default
+
+%description license
+license components for the pytest package.
 
 
 %package python
@@ -83,16 +91,15 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1528737080
+export SOURCE_DATE_EPOCH=1529117039
 python3 setup.py build -b py3
 
-%check
-export http_proxy=http://127.0.0.1:9/
-export https_proxy=http://127.0.0.1:9/
-export no_proxy=localhost,127.0.0.1,0.0.0.0
-py.test-2.7 --verbose || : ; py.test-3.5 --verbose || :
 %install
 rm -rf %{buildroot}
+mkdir -p %{buildroot}/usr/share/doc/pytest
+cp LICENSE %{buildroot}/usr/share/doc/pytest/LICENSE
+cp doc/en/license.rst %{buildroot}/usr/share/doc/pytest/doc_en_license.rst
+cp doc/en/_themes/LICENSE %{buildroot}/usr/share/doc/pytest/doc_en__themes_LICENSE
 python3 -tt setup.py build -b py3 install --root=%{buildroot}
 echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
@@ -105,6 +112,12 @@ echo ----[ mark ]----
 %defattr(-,root,root,-)
 /usr/bin/py.test
 /usr/bin/pytest
+
+%files license
+%defattr(-,root,root,-)
+/usr/share/doc/pytest/LICENSE
+/usr/share/doc/pytest/doc_en__themes_LICENSE
+/usr/share/doc/pytest/doc_en_license.rst
 
 %files python
 %defattr(-,root,root,-)
