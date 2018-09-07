@@ -123,6 +123,7 @@ simplejson
 six
 sphinxcontrib-websupport
 sqlalchemy-migrate
+sssd
 statsmodels
 stestr
 sure
