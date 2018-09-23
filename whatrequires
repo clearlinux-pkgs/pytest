@@ -1,5 +1,6 @@
 # This file contains recursive sources that require this package
 Babel
+CherryPy
 Django
 Flask
 Paste
@@ -27,6 +28,7 @@ bashate
 bcrypt
 beautifulsoup4
 bleach
+blockdiag
 borgbackup
 boto3
 cached-property
@@ -34,7 +36,6 @@ cachetools
 ceph-deploy
 certbot
 cheroot
-cherrypy
 cloudpickle
 cmd2
 compute-image-packages
@@ -115,12 +116,15 @@ python-troveclient
 python-zeep
 pyudev
 pywbem
+recommonmark
 repoze.lru
 repoze.who
 requests-toolbelt
 rfc3986
+serpent
 simplejson
 six
+sphinx-feature-classification
 sphinxcontrib-websupport
 sqlalchemy-migrate
 sssd
@@ -134,6 +138,7 @@ testscenarios
 tox
 waitress
 warlock
+zVMCloudConnector
 zc.lockfile
 zope.event
 zope.exceptions
