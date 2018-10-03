@@ -6,6 +6,7 @@ Flask
 Paste
 PyJWT
 PyMySQL
+PyNaCl
 Pyro4
 SQLAlchemy
 Sphinx
@@ -14,7 +15,6 @@ WebOb
 WebTest
 Werkzeug
 Whoosh
-XStatic-D3
 aiohttp
 alembic
 ansible
@@ -36,6 +36,7 @@ cachetools
 ceph-deploy
 certbot
 cheroot
+click
 cloudpickle
 cmd2
 compute-image-packages
@@ -83,8 +84,6 @@ neon
 nose-parameterized
 ntlm-auth
 os-xenapi
-oslo.privsep
-ovsdbapp
 packaging
 parso
 passlib
@@ -98,7 +97,6 @@ pyOpenSSL
 pyasn1
 pydot_ng
 pymongo
-pynacl
 pyparsing
 pysendfile
 pytest-cov
@@ -109,6 +107,8 @@ pytest-runner
 pytest-sugar
 pytest-timeout
 pytest-xdist
+python-dateutil
+python-hwinfo
 python-perf
 python-swiftclient
 python-tappy
