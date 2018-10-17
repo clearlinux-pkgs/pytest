@@ -35,6 +35,7 @@ cached-property
 cachetools
 ceph-deploy
 certbot
+check-manifest
 cheroot
 click
 cloudpickle
@@ -55,6 +56,7 @@ execnet
 flake8-builtins
 flake8-deprecated
 flake8-docstrings
+fonttools
 gabbi
 glance
 glances
@@ -77,6 +79,7 @@ lazy-object-proxy
 libarchive-c
 logilab-common
 matplotlib
+mido
 mod_wsgi
 more-itertools
 mypy
@@ -96,7 +99,6 @@ py
 pyOpenSSL
 pyasn1
 pydot_ng
-pymongo
 pyparsing
 pysendfile
 pytest-cov
@@ -112,6 +114,7 @@ python-hwinfo
 python-perf
 python-swiftclient
 python-tappy
+python-toml
 python-troveclient
 python-zeep
 pyudev
