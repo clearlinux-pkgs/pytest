@@ -117,6 +117,7 @@ python-tappy
 python-toml
 python-troveclient
 python-zeep
+python2-mod_wsgi
 pyudev
 pywbem
 recommonmark
