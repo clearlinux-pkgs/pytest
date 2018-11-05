@@ -64,12 +64,14 @@ greenlet
 h5py
 hacking
 hgtools
+html5lib
 httpretty
 icalendar
 ironic
 iso8601
 isodate
 jaraco.functools
+jdcal
 jedi
 josepy
 jupyter-notebook-gist
@@ -98,9 +100,11 @@ posix_ipc
 py
 pyOpenSSL
 pyasn1
+pybind11
 pydot_ng
 pyparsing
 pysendfile
+pytest-asyncio
 pytest-cov
 pytest-forked
 pytest-repeat
@@ -113,10 +117,12 @@ python-dateutil
 python-hwinfo
 python-perf
 python-swiftclient
+python-tabulate
 python-tappy
 python-toml
 python-troveclient
 python-zeep
+python-zstandard
 python2-mod_wsgi
 pyudev
 pywbem
@@ -125,6 +131,7 @@ repoze.lru
 repoze.who
 requests-toolbelt
 rfc3986
+scikit-build
 serpent
 simplejson
 six
