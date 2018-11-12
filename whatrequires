@@ -3,6 +3,7 @@ Babel
 CherryPy
 Django
 Flask
+MarkupSafe
 Paste
 PyJWT
 PyMySQL
@@ -136,6 +137,7 @@ serpent
 simplejson
 six
 sphinx-feature-classification
+sphinxcontrib-programoutput
 sphinxcontrib-websupport
 sqlalchemy-migrate
 sssd
