@@ -115,6 +115,7 @@ pytest-sugar
 pytest-timeout
 pytest-xdist
 python-dateutil
+python-graphviz
 python-hwinfo
 python-perf
 python-swiftclient
