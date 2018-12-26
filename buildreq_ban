@@ -21,3 +21,4 @@ _pytest.fixtures-python
 _pytest.compat-python
 test_one-python
 setuptools-scm
+tox

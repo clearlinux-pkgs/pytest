@@ -90,6 +90,7 @@ neon
 nose-parameterized
 ntlm-auth
 os-xenapi
+oslo.upgradecheck
 packaging
 parso
 passlib
@@ -102,6 +103,7 @@ py
 pyOpenSSL
 pyasn1
 pybind11
+pybtex
 pydot_ng
 pyparsing
 pysendfile
@@ -134,6 +136,7 @@ repoze.who
 requests-toolbelt
 rfc3986
 scikit-build
+seqdiag
 serpent
 simplejson
 six

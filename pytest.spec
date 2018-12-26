@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 4.0.2
-Release  : 81
+Release  : 83
 URL      : https://files.pythonhosted.org/packages/9d/a9/3688b67467527c25e7a4d02c3b22565f15158a0a5d681870bfda8af210c6/pytest-4.0.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9d/a9/3688b67467527c25e7a4d02c3b22565f15158a0a5d681870bfda8af210c6/pytest-4.0.2.tar.gz
 Summary  : pytest: simple powerful testing with Python
@@ -85,7 +85,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1544886664
+export SOURCE_DATE_EPOCH=1545788781
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
