@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 4.0.2
-Release  : 84
+Release  : 85
 URL      : https://files.pythonhosted.org/packages/9d/a9/3688b67467527c25e7a4d02c3b22565f15158a0a5d681870bfda8af210c6/pytest-4.0.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9d/a9/3688b67467527c25e7a4d02c3b22565f15158a0a5d681870bfda8af210c6/pytest-4.0.2.tar.gz
 Summary  : pytest: simple powerful testing with Python
