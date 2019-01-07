@@ -32,7 +32,6 @@ bleach
 blockdiag
 borgbackup
 boto3
-cached-property
 cachetools
 ceph-deploy
 certbot
@@ -44,7 +43,6 @@ cmd2
 compute-image-packages
 coverage
 cssselect
-cursive
 defusedxml
 distro
 django_compressor
@@ -72,6 +70,7 @@ ironic
 iso8601
 isodate
 jaraco.functools
+jarn.viewdoc
 jdcal
 jedi
 josepy
@@ -105,6 +104,7 @@ pyasn1
 pybind11
 pybtex
 pydot_ng
+pyhs100
 pyparsing
 pysendfile
 pytest-asyncio
@@ -129,17 +129,18 @@ python-zeep
 python-zstandard
 python2-mod_wsgi
 pyudev
-pywbem
 recommonmark
 repoze.lru
 repoze.who
 requests-toolbelt
+retry
 rfc3986
 scikit-build
 seqdiag
 serpent
 simplejson
 six
+soupsieve
 sphinx-feature-classification
 sphinxcontrib-programoutput
 sphinxcontrib-websupport
