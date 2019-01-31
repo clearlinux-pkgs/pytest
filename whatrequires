@@ -88,6 +88,7 @@ mypy
 neon
 nose-parameterized
 ntlm-auth
+numpy-stl
 os-xenapi
 oslo.upgradecheck
 packaging
@@ -96,6 +97,7 @@ passlib
 patsy
 performance
 persistent
+piglit
 portend
 posix_ipc
 py
@@ -125,9 +127,11 @@ python-tabulate
 python-tappy
 python-toml
 python-troveclient
+python-utils
 python-zeep
 python-zstandard
 python2-mod_wsgi
+pytorch
 pyudev
 recommonmark
 repoze.lru
