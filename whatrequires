@@ -8,6 +8,7 @@ Paste
 PyJWT
 PyMySQL
 PyNaCl
+PySocks
 Pyro4
 SQLAlchemy
 Sphinx
@@ -48,6 +49,7 @@ distro
 django_compressor
 dnf
 dnf-plugins-core
+dockerpty
 dogpile.cache
 ecdsa
 enum34
@@ -112,6 +114,7 @@ pysendfile
 pytest-asyncio
 pytest-cov
 pytest-forked
+pytest-localserver
 pytest-repeat
 pytest-rerunfailures
 pytest-runner
@@ -137,6 +140,7 @@ recommonmark
 repoze.lru
 repoze.who
 requests-toolbelt
+responses
 retry
 rfc3986
 scikit-build
@@ -154,9 +158,11 @@ statsmodels
 stestr
 sure
 swift
+tblib
 tempora
 testresources
 testscenarios
+texttable
 tox
 waitress
 warlock
