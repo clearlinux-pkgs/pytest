@@ -22,6 +22,7 @@ alembic
 ansible
 apipkg
 argcomplete
+argon2_cffi
 astunparse
 attrs
 backports.weakref
@@ -42,6 +43,8 @@ click
 cloudpickle
 cmd2
 compute-image-packages
+configparser
+cotyledon
 coverage
 cssselect
 defusedxml
@@ -107,6 +110,7 @@ py
 pyOpenSSL
 pyasn1
 pybind11
+pyblake2
 pybtex
 pydot_ng
 pyhs100
@@ -116,6 +120,7 @@ pytest-asyncio
 pytest-cov
 pytest-forked
 pytest-localserver
+pytest-randomly
 pytest-repeat
 pytest-rerunfailures
 pytest-runner
@@ -152,6 +157,7 @@ six
 soupsieve
 sphinx-feature-classification
 sphinxcontrib-programoutput
+sphinxcontrib-spelling
 sphinxcontrib-websupport
 sqlalchemy-migrate
 sssd
