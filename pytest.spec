@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 4.4.1
-Release  : 97
+Release  : 98
 URL      : https://files.pythonhosted.org/packages/2b/b1/c9a84f79fc3bad226a9085289da11ecdd9bd2779a2c654195962b37d4110/pytest-4.4.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2b/b1/c9a84f79fc3bad226a9085289da11ecdd9bd2779a2c654195962b37d4110/pytest-4.4.1.tar.gz
 Summary  : pytest: simple powerful testing with Python
