@@ -17,6 +17,7 @@ WebOb
 WebTest
 Werkzeug
 Whoosh
+acme
 aiohttp
 alembic
 ansible
@@ -27,6 +28,7 @@ astunparse
 attrs
 backports.weakref
 barbican
+bash-completion
 bashate
 bcrypt
 beautifulsoup4
@@ -81,6 +83,7 @@ dogpile.cache
 ecdsa
 enum34
 execnet
+fastnumbers
 flake8-builtins
 flake8-deprecated
 flake8-docstrings
@@ -115,10 +118,13 @@ mido
 mod_wsgi
 more-itertools
 mypy
+natsort
 neon
+nltk
 nose-parameterized
 ntlm-auth
 numpy-stl
+numpydoc
 os-xenapi
 oslo.upgradecheck
 packaging
@@ -158,7 +164,6 @@ python-perf
 python-swiftclient
 python-tabulate
 python-tappy
-python-toml
 python-troveclient
 python-utils
 python-zeep
@@ -174,10 +179,12 @@ responses
 retry
 rfc3986
 scikit-build
+segno
 seqdiag
 serpent
 simplejson
 six
+snitun
 soupsieve
 sphinx-feature-classification
 sphinxcontrib-applehelp
@@ -201,6 +208,7 @@ testresources
 testscenarios
 texttable
 todoist
+toml
 tox
 waitress
 warlock
