@@ -3,6 +3,7 @@ Babel
 CherryPy
 Django
 Flask
+Mako
 MarkupSafe
 Paste
 PyJWT
@@ -21,6 +22,7 @@ acme
 aiohttp
 alembic
 ansible
+apache-libcloud
 apipkg
 argcomplete
 argon2_cffi
