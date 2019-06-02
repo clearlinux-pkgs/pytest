@@ -212,6 +212,7 @@ texttable
 todoist
 toml
 tox
+urllib3
 waitress
 warlock
 zVMCloudConnector
