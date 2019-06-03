@@ -1,5 +1,5 @@
 PKG_NAME := pytest
-URL = https://files.pythonhosted.org/packages/20/0a/6a9465a684ec47dcc2dad7519b82a73cd0ffaa820545b9066c07161a686b/pytest-4.6.0.tar.gz
+URL = https://files.pythonhosted.org/packages/eb/c8/70bdd5e0913b91b30922b401d445228557ff94fd39c37e893d0d1827925a/pytest-4.6.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
