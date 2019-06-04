@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 4.6.2
-Release  : 103
+Release  : 104
 URL      : https://files.pythonhosted.org/packages/69/31/5b089ea5aa524212238899e84ba9c6a8ec6c0ddbbaf0c7e6caf7a6e77ac8/pytest-4.6.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/69/31/5b089ea5aa524212238899e84ba9c6a8ec6c0ddbbaf0c7e6caf7a6e77ac8/pytest-4.6.2.tar.gz
 Summary  : pytest: simple powerful testing with Python
@@ -17,6 +17,7 @@ Requires: pytest-python3 = %{version}-%{release}
 Requires: atomicwrites
 Requires: attrs
 Requires: funcsigs
+Requires: importlib_metadata
 Requires: more-itertools
 Requires: packaging
 Requires: pathlib2
@@ -96,7 +97,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1559620560
+export SOURCE_DATE_EPOCH=1559666540
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
