@@ -100,7 +100,7 @@ hgtools
 html5lib
 httpretty
 icalendar
-importlib-metadata
+importlib_metadata
 ironic
 iso8601
 isodate
@@ -109,6 +109,7 @@ jarn.viewdoc
 jdcal
 jedi
 josepy
+junit-xml
 jupyter-notebook-gist
 keystone
 khal
@@ -123,7 +124,6 @@ more-itertools
 mypy
 natsort
 neon
-nltk
 nose-parameterized
 ntlm-auth
 numpy-stl
@@ -206,6 +206,7 @@ stestr
 sure
 swift
 tblib
+tempest
 tempora
 testresources
 testscenarios
@@ -218,6 +219,7 @@ waitress
 warlock
 zVMCloudConnector
 zc.lockfile
+zipp
 zope.event
 zope.exceptions
 zope.hookable
