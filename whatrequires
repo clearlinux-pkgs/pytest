@@ -6,11 +6,11 @@ Flask
 Mako
 MarkupSafe
 Paste
+PyICU
 PyJWT
 PyMySQL
 PyNaCl
 PySocks
-Pyro4
 SQLAlchemy
 Sphinx
 WSGIProxy2
@@ -26,6 +26,7 @@ apache-libcloud
 apipkg
 argcomplete
 argon2_cffi
+astroid
 astunparse
 attrs
 backports.weakref
@@ -217,6 +218,7 @@ tox
 urllib3
 waitress
 warlock
+webcolors
 zVMCloudConnector
 zc.lockfile
 zipp
