@@ -130,6 +130,7 @@ ntlm-auth
 numpy-stl
 numpydoc
 os-xenapi
+osinfo-db-tools
 oslo.upgradecheck
 packaging
 parso
@@ -148,6 +149,7 @@ pyblake2
 pybtex
 pydot_ng
 pyhs100
+pynvim
 pyparsing
 pysendfile
 pytest-asyncio
