@@ -221,6 +221,7 @@ urllib3
 waitress
 warlock
 webcolors
+wheel
 zVMCloudConnector
 zc.lockfile
 zipp
