@@ -124,7 +124,6 @@ mod_wsgi
 more-itertools
 mypy
 natsort
-neon
 nose-parameterized
 ntlm-auth
 numpy-stl
@@ -186,6 +185,7 @@ retry
 rfc3986
 scikit-build
 segno
+semantic_version
 seqdiag
 serpent
 simplejson
