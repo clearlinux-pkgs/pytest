@@ -182,6 +182,7 @@ repoze.who
 requests-toolbelt
 responses
 retry
+retype
 rfc3986
 scikit-build
 segno
