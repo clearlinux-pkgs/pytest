@@ -204,7 +204,6 @@ sphinxcontrib-qthelp
 sphinxcontrib-serializinghtml
 sphinxcontrib-spelling
 sphinxcontrib-websupport
-sqlalchemy-migrate
 sssd
 statsmodels
 stestr
