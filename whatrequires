@@ -12,6 +12,7 @@ PyJWT
 PyMySQL
 PyNaCl
 PySocks
+Pygments
 SQLAlchemy
 Sphinx
 WSGIProxy2
@@ -20,7 +21,6 @@ WebTest
 Werkzeug
 Whoosh
 acme
-aiohttp
 alembic
 ansible
 apache-libcloud
@@ -61,7 +61,6 @@ dnf-plugins-core
 dockerpty
 dogpile.cache
 ecdsa
-enum34
 execnet
 fastnumbers
 flake8-builtins
@@ -142,6 +141,7 @@ pytest-xdist
 python-dateutil
 python-graphviz
 python-hwinfo
+python-ldap
 python-perf
 python-swiftclient
 python-tabulate
@@ -150,7 +150,6 @@ python-troveclient
 python-utils
 python-zeep
 python-zstandard
-pytorch
 pyudev
 recommonmark
 repoze.lru
@@ -179,7 +178,6 @@ sphinxcontrib-qthelp
 sphinxcontrib-serializinghtml
 sphinxcontrib-spelling
 sphinxcontrib-websupport
-sssd
 statsmodels
 stestr
 sure
@@ -190,6 +188,7 @@ tempora
 testresources
 testscenarios
 texttable
+tldextract
 todoist
 toml
 tox
@@ -201,6 +200,8 @@ wheel
 zVMCloudConnector
 zc.lockfile
 zipp
+zope.deferredimport
+zope.deprecation
 zope.event
 zope.exceptions
 zope.hookable
