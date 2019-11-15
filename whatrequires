@@ -22,7 +22,6 @@ Werkzeug
 Whoosh
 acme
 alembic
-ansible
 apache-libcloud
 apipkg
 argcomplete
@@ -93,11 +92,13 @@ khal
 lazy
 lazy-object-proxy
 libarchive-c
+libvirt-python
 logilab-common
 matplotlib
 mido
 mod_wsgi
 more-itertools
+munch
 mypy
 natsort
 nose-parameterized
@@ -123,6 +124,7 @@ pybind11
 pyblake2
 pybtex
 pydot_ng
+pyelftools
 pyhs100
 pynvim
 pyparsing
