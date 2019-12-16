@@ -28,6 +28,7 @@ argcomplete
 argon2_cffi
 astroid
 astunparse
+asv
 attrs
 backports.weakref
 barbican
@@ -48,7 +49,6 @@ click
 cloudpickle
 cmd2
 compute-image-packages
-configparser
 cotyledon
 coverage
 cssselect
@@ -101,14 +101,16 @@ more-itertools
 munch
 mypy
 natsort
+nbval
 nose-parameterized
 ntlm-auth
 numpy-stl
 numpydoc
+onnx
 os-xenapi
 osinfo-db-tools
-oslo.upgradecheck
 packaging
+parsedatetime
 parso
 passlib
 patsy
@@ -170,7 +172,6 @@ simplejson
 six
 snitun
 soupsieve
-sphinx-feature-classification
 sphinxcontrib-applehelp
 sphinxcontrib-devhelp
 sphinxcontrib-htmlhelp
@@ -181,7 +182,6 @@ sphinxcontrib-serializinghtml
 sphinxcontrib-spelling
 sphinxcontrib-websupport
 statsmodels
-stestr
 sure
 swift
 tblib
