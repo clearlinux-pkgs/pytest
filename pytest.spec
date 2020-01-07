@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 5.3.2
-Release  : 128
+Release  : 129
 URL      : https://files.pythonhosted.org/packages/c5/71/91ec682e10114f191da1a0ffabf35eccb9ab1c6bf9a535bb4a1b89ea59ca/pytest-5.3.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c5/71/91ec682e10114f191da1a0ffabf35eccb9ab1c6bf9a535bb4a1b89ea59ca/pytest-5.3.2.tar.gz
 Summary  : pytest: simple powerful testing with Python
