@@ -48,7 +48,6 @@ cheroot
 click
 cloudpickle
 cmd2
-compute-image-packages
 cotyledon
 coverage
 cssselect
@@ -135,7 +134,6 @@ pytest-asyncio
 pytest-cov
 pytest-forked
 pytest-localserver
-pytest-randomly
 pytest-repeat
 pytest-rerunfailures
 pytest-runner
