@@ -32,7 +32,6 @@ asv
 attrs
 backports.weakref
 barbican
-bash-completion
 bashate
 bcrypt
 beautifulsoup4
@@ -107,7 +106,6 @@ numpy-stl
 numpydoc
 onnx
 os-xenapi
-osinfo-db-tools
 packaging
 parsedatetime
 parso
@@ -118,6 +116,7 @@ persistent
 piglit
 portend
 posix_ipc
+prompt_toolkit
 py
 pyOpenSSL
 pyasn1
@@ -192,7 +191,6 @@ tldextract
 todoist
 toml
 tox
-urllib3
 waitress
 warlock
 webcolors
