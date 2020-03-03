@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 5.3.5
-Release  : 132
+Release  : 133
 URL      : https://files.pythonhosted.org/packages/f0/5f/41376614e41f7cdee02d22d1aec1ea028301b4c6c4523a5f7ef8e960fe0b/pytest-5.3.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f0/5f/41376614e41f7cdee02d22d1aec1ea028301b4c6c4523a5f7ef8e960fe0b/pytest-5.3.5.tar.gz
 Summary  : pytest: simple powerful testing with Python
@@ -81,6 +81,7 @@ python components for the pytest package.
 Summary: python3 components for the pytest package.
 Group: Default
 Requires: python3-core
+Provides: pypi(pytest)
 
 %description python3
 python3 components for the pytest package.
@@ -95,7 +96,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1580408192
+export SOURCE_DATE_EPOCH=1583210097
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar

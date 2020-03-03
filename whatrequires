@@ -75,6 +75,7 @@ html5lib
 httpretty
 icalendar
 importlib_metadata
+intervaltree
 ironic
 iso8601
 isodate
@@ -111,6 +112,7 @@ parsedatetime
 parso
 passlib
 patsy
+pep517
 performance
 persistent
 piglit
@@ -178,12 +180,14 @@ sphinxcontrib-qthelp
 sphinxcontrib-serializinghtml
 sphinxcontrib-spelling
 sphinxcontrib-websupport
+sqlparse
 statsmodels
 sure
 swift
 tblib
 tempest
 tempora
+testrepository
 testresources
 testscenarios
 texttable
