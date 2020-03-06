@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 5.3.5
-Release  : 134
+Release  : 135
 URL      : https://files.pythonhosted.org/packages/f0/5f/41376614e41f7cdee02d22d1aec1ea028301b4c6c4523a5f7ef8e960fe0b/pytest-5.3.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f0/5f/41376614e41f7cdee02d22d1aec1ea028301b4c6c4523a5f7ef8e960fe0b/pytest-5.3.5.tar.gz
 Summary  : pytest: simple powerful testing with Python
@@ -83,7 +83,7 @@ Group: Default
 Requires: python3-core
 Provides: pypi(pytest)
 Requires: pypi(attrs)
-Requires: pypi(more-itertools)
+Requires: pypi(more_itertools)
 Requires: pypi(packaging)
 Requires: pypi(pluggy)
 Requires: pypi(py)
@@ -102,7 +102,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583443161
+export SOURCE_DATE_EPOCH=1583458434
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
