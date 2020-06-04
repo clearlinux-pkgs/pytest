@@ -22,6 +22,7 @@ Whoosh
 acme
 apache-libcloud
 apipkg
+appdirs
 argcomplete
 argon2_cffi
 astunparse
@@ -31,6 +32,7 @@ backports.weakref
 bashate
 bcrypt
 beautifulsoup4
+bind-utils
 bleach
 blockdiag
 borgbackup
@@ -171,6 +173,7 @@ retry
 retype
 rfc3986
 scikit-build
+scour
 segno
 semantic_version
 seqdiag
