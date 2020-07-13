@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 5.4.3
-Release  : 139
+Release  : 140
 URL      : https://files.pythonhosted.org/packages/8f/c4/e4a645f8a3d6c6993cb3934ee593e705947dfafad4ca5148b9a0fde7359c/pytest-5.4.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8f/c4/e4a645f8a3d6c6993cb3934ee593e705947dfafad4ca5148b9a0fde7359c/pytest-5.4.3.tar.gz
 Summary  : pytest: simple powerful testing with Python
