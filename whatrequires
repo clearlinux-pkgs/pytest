@@ -75,6 +75,7 @@ html5lib
 httpretty
 icalendar
 importlib_metadata
+iniconfig
 intervaltree
 ipython
 ironic
