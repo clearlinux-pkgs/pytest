@@ -20,11 +20,12 @@ WebTest
 Werkzeug
 Whoosh
 acme
+alembic
 apache-libcloud
 apipkg
 appdirs
 argcomplete
-argon2_cffi
+argon2-cffi
 astunparse
 asv
 attrs
@@ -45,7 +46,6 @@ check-manifest
 cheroot
 click
 cloudpickle
-cmd2
 cotyledon
 coverage
 cssselect
