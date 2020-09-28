@@ -12,6 +12,7 @@ PyJWT
 PyMySQL
 PyNaCl
 PySocks
+Pygments
 SQLAlchemy
 Sphinx
 WSGIProxy2
@@ -117,7 +118,6 @@ numpydoc
 onnx
 os-xenapi
 parsedatetime
-parso
 passlib
 patsy
 pep517
@@ -164,6 +164,7 @@ python-utils
 python-zeep
 python-zstandard
 pyudev
+pyusb
 readme_renderer
 recommonmark
 repoze.lru
@@ -174,6 +175,7 @@ retry
 retype
 rfc3986
 scikit-build
+scikit-learn
 scour
 segno
 semantic_version
