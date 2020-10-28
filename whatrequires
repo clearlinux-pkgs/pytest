@@ -12,7 +12,6 @@ PyJWT
 PyMySQL
 PyNaCl
 PySocks
-Pygments
 SQLAlchemy
 Sphinx
 WSGIProxy2
@@ -45,7 +44,6 @@ click
 cloudpickle
 coverage
 cssselect
-cve-bin-tool
 defusedxml
 distro
 django_compressor
@@ -94,7 +92,6 @@ mypy
 nbval
 nose-parameterized
 ntlm-auth
-numpy-stl
 numpydoc
 onnx
 parsedatetime
@@ -110,6 +107,7 @@ py
 pyOpenSSL
 pyasn1
 pybind11
+pycares
 pydot_ng
 pyelftools
 pynvim
@@ -170,6 +168,7 @@ tldextract
 toml
 tox
 twine
+typeguard
 waitress
 webcolors
 wheel
