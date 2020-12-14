@@ -4,7 +4,7 @@
 #
 Name     : pytest
 Version  : 6.1.2
-Release  : 148
+Release  : 149
 URL      : https://files.pythonhosted.org/packages/d4/df/bd7c25c4fe809a17315b3fc9878edf48d31dde7b431b6836848b063c0428/pytest-6.1.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d4/df/bd7c25c4fe809a17315b3fc9878edf48d31dde7b431b6836848b063c0428/pytest-6.1.2.tar.gz
 Summary  : pytest: simple powerful testing with Python
