@@ -57,12 +57,16 @@ fonttools
 fuse
 glances
 greenlet
+h2
 h5py
+hpack
 html5lib
 httpretty
+hyperframe
 icalendar
 importlib_metadata
 iniconfig
+intelhex
 intervaltree
 ipython
 iso8601
@@ -125,6 +129,7 @@ pytest-tap
 pytest-timeout
 pytest-xdist
 python-dateutil
+python-dotenv
 python-graphviz
 python-hwinfo
 python-utils
@@ -140,6 +145,7 @@ responses
 retry
 retype
 rfc3986
+scikit-image
 scikit-learn
 scour
 seqdiag
