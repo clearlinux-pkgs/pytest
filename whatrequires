@@ -19,6 +19,7 @@ WebOb
 WebTest
 Werkzeug
 Whoosh
+anyio
 apipkg
 appdirs
 argcomplete
@@ -145,7 +146,6 @@ responses
 retry
 retype
 rfc3986
-scikit-image
 scikit-learn
 scour
 seqdiag
