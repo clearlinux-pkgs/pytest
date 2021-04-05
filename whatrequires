@@ -27,6 +27,7 @@ argon2-cffi
 astunparse
 asv
 attrs
+backports.entry_points_selectable
 backports.weakref
 bcrypt
 beautifulsoup4
@@ -46,6 +47,7 @@ cloudpickle
 coverage
 cssselect
 defusedxml
+dill
 distro
 django_compressor
 dnf
@@ -79,7 +81,6 @@ jaraco.text
 jarn.viewdoc
 javaproperties
 jdcal
-jedi
 josepy
 jsonpickle
 jupyter-notebook-gist
@@ -94,6 +95,7 @@ mido
 mod_wsgi
 more-itertools
 mypy
+nbclient
 nbval
 nose-parameterized
 ntlm-auth
@@ -103,6 +105,7 @@ parsedatetime
 patsy
 pep517
 persistent
+pid
 piglit
 pkginfo
 portend
@@ -151,6 +154,7 @@ scour
 seqdiag
 serpent
 simplejson
+singledispatch
 six
 soupsieve
 sphinxcontrib-applehelp
