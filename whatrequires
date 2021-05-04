@@ -32,6 +32,7 @@ backports.weakref
 bcrypt
 beautifulsoup4
 bind-utils
+black
 bleach
 blockdiag
 borgbackup
@@ -57,6 +58,7 @@ ecdsa
 execnet
 flake8-docstrings
 fonttools
+fsspec
 fuse
 glances
 greenlet
@@ -97,6 +99,7 @@ more-itertools
 mypy
 nbclient
 nbval
+nltk
 nose-parameterized
 ntlm-auth
 numpydoc
