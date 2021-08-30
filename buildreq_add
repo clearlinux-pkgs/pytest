@@ -6,5 +6,6 @@ execnet
 nose
 pexpect
 pytest-xdist
-unittest2
 setuptools_scm
+unittest2
+xmlschema

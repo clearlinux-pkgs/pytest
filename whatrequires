@@ -7,7 +7,6 @@ Flask
 Mako
 MarkupSafe
 Paste
-PyICU
 PyJWT
 PyMySQL
 PyNaCl
@@ -24,6 +23,7 @@ apipkg
 appdirs
 argcomplete
 argon2-cffi
+arrow
 astunparse
 asv
 attrs
@@ -45,6 +45,7 @@ check-manifest
 cheroot
 click
 cloudpickle
+contextlib2
 coverage
 cssselect
 defusedxml
@@ -53,8 +54,10 @@ distro
 django_compressor
 dnf
 dnf-plugins-core
+dnspython
 dockerpty
 ecdsa
+elementpath
 execnet
 flake8-docstrings
 fonttools
@@ -66,13 +69,12 @@ h2
 h5py
 hpack
 html5lib
-httpretty
 hyperframe
 icalendar
 importlib_metadata
+importlib_resources
 iniconfig
 intelhex
-intervaltree
 ipython
 iso8601
 isodate
@@ -93,6 +95,7 @@ lazy-object-proxy
 libarchive-c
 libvirt-python
 logilab-common
+matplotlib
 mido
 mod_wsgi
 more-itertools
@@ -104,15 +107,16 @@ nose-parameterized
 ntlm-auth
 numpydoc
 onnx
-parsedatetime
 patsy
 pep517
 persistent
 pid
 piglit
 pkginfo
+platformdirs
 portend
 posix_ipc
+prettytable
 prompt_toolkit
 py
 pyOpenSSL
@@ -139,6 +143,7 @@ python-dateutil
 python-dotenv
 python-graphviz
 python-hwinfo
+python-tabulate
 python-utils
 python-zeep
 python-zstandard
@@ -154,6 +159,7 @@ retype
 rfc3986
 scikit-learn
 scour
+semantic_version
 seqdiag
 serpent
 simplejson
@@ -185,6 +191,7 @@ typeguard
 waitress
 webcolors
 wheel
+xmlschema
 zc.lockfile
 zipp
 zope.deferredimport
