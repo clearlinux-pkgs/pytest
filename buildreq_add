@@ -7,5 +7,4 @@ nose
 pexpect
 pytest-xdist
 setuptools_scm
-unittest2
 xmlschema

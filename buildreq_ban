@@ -22,3 +22,4 @@ test_one-python
 test_one.part1-python
 tox
 xyz-python
+unittest2
